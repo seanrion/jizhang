@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_sub_item_bg_normal"
+    android:orientation="vertical">
+
+    <ExpandableListView
+        android:id="@+id/ll_me_user"
+        android:layout_width = "match_parent"
+        android:orientation = "horizontal"
+        android:layout_height="wrap_content"
+
+        >
+    </ExpandableListView>
+
+
+    <LinearLayout
+        android:id="@+id/ll_me_init"
+        style="@style/me_ll_style"
+
+        android:focusable="false"
+        >
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@mipmap/btn_delete_gray_n"/>
+
+        <TextView
+            style="@style/me_text_style"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="初始化"/>
+    </LinearLayout>
+
+</LinearLayout>
