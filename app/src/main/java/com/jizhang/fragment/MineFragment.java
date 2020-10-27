@@ -99,7 +99,7 @@ public class MineFragment extends BaseFragment {
                             incomeCatDao.initIncomeCat(newuser);
                             ExpenseCatDao expenseCatDao = new ExpenseCatDao(mContext);
                             expenseCatDao.initExpensesCat(newuser);
-                            lData.add(lData.size()-2,newuser);
+                            lData.add(lData.size()-1,newuser);
                             iData.remove(0);
                             iData.add(lData);
                             useradapter.setData(gData,iData);
