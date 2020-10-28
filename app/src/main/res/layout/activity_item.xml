@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:background="@color/holo_orange_light"
+        android:background="@color/auqamarin"
         android:orientation="vertical">
 
         <TextView
@@ -82,7 +82,7 @@
         <Button
             android:id="@+id/btn_show_income"
             style="@style/btn_top_style"
-            android:background="@drawable/btn_orange_normal"
+            android:background="?attr/colorPrimary"
             android:text="收入"/>
 
         <Button

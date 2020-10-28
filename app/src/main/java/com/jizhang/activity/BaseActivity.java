@@ -103,6 +103,7 @@ public abstract class BaseActivity extends AppCompatActivity implements View.OnC
 
     protected void showBackwardView(boolean show) {
         this.menuitemId = R.id.btn_top_backward;
+        this.iconId = R.mipmap.ic_arrow_back;
         this.menuShow = show;
         invalidateOptionsMenu();
     }

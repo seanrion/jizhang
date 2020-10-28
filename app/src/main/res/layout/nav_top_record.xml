@@ -8,7 +8,7 @@
     <Button
         android:id="@+id/label_record_income"
         style="@style/btn_top_style"
-        android:background="@drawable/btn_orange_normal"
+        android:background="?attr/colorPrimary"
         android:text="收入"/>
 
     <Button
